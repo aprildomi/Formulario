@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 preguntas por responder</title>
+    <style>
+        body {
+            font-family: cursive;
+            background-color: #C0D5F0;
+            color: blue;
+            font-size: 20px;
+            text-align: center;
+        }
+        .titulo {
+            background-color: #A7A3F0;
+            border-radius: 20px;
+            font-size: 30px;
+        }
+    </style>
+    <script>
+        function res ( ) {
+            var respuesta=document.getElementById('respuesta');
+            var resultado=document.getElementById('resultado');
+            if (respuesta.value==="Estocolmo") {
+                resultado.innerHTML="Correcto";
+            } else {
+                resultado.innerHTML="No es correcto";
+            }
+        }
+        function res2() {
+            var respuesta2=document.getElementById('respuesta2');
+            var resultado2=document.getElementById('resultado2');
+            if (respuesta2.value==="Canberra") {
+                resultado2.innerHTML="Es correcto";
+            } else {
+                resultado2.innerHTML="No es correcto";
+            }
+        }
+        function res3() {
+            var respuesta3=document.getElementById('respuesta3');
+            var resultado3=document.getElementById('resultado3');
+            if (respuesta3.value==="El Cairo") {
+                resultado3.innerHTML="Es correcto";
+            } else {
+                resultado3.innerHTML="No es correcto";
+            }
+        }
+        function res4() {
+            var respuesta4=document.getElementById('respuesta4');
+            var resultado4=document.getElementById('resultado4');
+            if (respuesta4.value==="Berlin") {
+                resultado4.innerHTML="Es correcto";
+            } else {
+                resultado4.innerHTML="No es correcto";
+            }
+        }
+        function res5() {
+            var respuesta5=document.getElementById('respuesta5');
+            var resultado5=document.getElementById('resultado5');
+            if (respuesta5.value==="San Salvador") {
+                resultado5.innerHTML="Es correcto";
+            } else {
+                resultado5.innerHTML="No es correcto";
+            }
+        }
+        function res6() {
+            var respuesta6=document.getElementById('respuesta6');
+            var resultado6=document.getElementById('resultado6');
+            if (respuesta6.value==="Paris") {
+                resultado6.innerHTML="Es correcto";
+            } else {
+                resultado6.innerHTML="No es correcto";
+            }
+        }
+        function res7() {
+            var respuesta7=document.getElementById('respuesta7');
+            var resultado7=document.getElementById('resultado7');
+            if (respuesta7.value==="Bangkok") {
+                resultado7.innerHTML="Es correcto";
+            } else {
+                resultado7.innerHTML="No es correcto";
+            }
+        }
+        function res8() {
+            var respuesta8=document.getElementById('respuesta8');
+            var resultado8=document.getElementById('resultado8');
+            if (respuesta8.value==="Moscu") {
+                resultado8.innerHTML="Es correcto";
+            } else {
+                resultado8.innerHTML="No es correcto";
+            }
+        }
+        function res9() {
+            var respuesta9=document.getElementById('respuesta9');
+            var resultado9=document.getElementById('resultado9');
+            if (respuesta9.value=="Argel") {
+                resultado9.innerHTML="Es correcto";
+            } else {
+                resultado9.innerHTML="No es correcto";
+            }
+        }
+        function res10() {
+            var respuesta10=document.getElementById('respuesta10');
+            var resultado10=document.getElementById('resultado10');
+            if (respuesta10.value==="Dakar") {
+                resultado10.innerHTML="Es correcto";
+            } else {
+                resultado10.innerHTML="No es correcto";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="titulo"><h4>Formulario sobre algunas capitales</h4></div>
+
+    <p>1. ¿Cual es la capital de Suecia?</p>
+    <input type="text" id="respuesta" value="responda aqui">
+    <button type="button" onclick="res ()">Consultar</button>
+    <p id="resultado"></p>
+    
+    <p>2. ¿Cual es la capital de Australia?</p>
+    <input type="text" id="respuesta2" value="responda aqui">
+    <button type="button" onclick="res2 ()">Consultar</button>
+    <p id="resultado2"></p>
+
+    <p>3. ¿Cual es la capital de Egipto?</p>
+    <input type="text" id="respuesta3" value="responda aqui">
+    <button type="button" onclick="res3 ()">Consultar</button>
+    <p id="resultado3"></p>
+
+    <p>4. ¿Cual es la capital de Alemania?</p>
+    <input type="text" id="respuesta4" value="responda aqui">
+    <button type="button" onclick="res4 ()">Consultar</button>
+    <p id="resultado4"></p>
+
+    <p>5. ¿Cual es la capital de El Salvador?</p>
+    <input type="text" id="respuesta5" value="responda aqui">
+    <button type="button" onclick="res5 ()">Consultar</button>
+    <p id="resultado5"></p>
+
+    <p>6. ¿Cual es la capital de Francia?</p>
+    <input type="text" id="respuesta6" value="responda aqui">
+    <button type="button" onclick="res6 ()">Consultar</button>
+    <p id="resultado6"></p>
+    
+    <p>7. ¿Cual es la capital de Tailandia?</p>
+    <input type="text" id="respuesta7" value="responda aqui">
+    <button type="button" onclick="res7 ()">Consultar</button>
+    <p id="resultado7"></p>
+
+    <p>8. ¿Cual es la capital de Rusia?</p>
+    <input type="text" id="respuesta8" value="responda aqui">
+    <button type="button" onclick="res8 ()">Consultar</button>
+    <p id="resultado8"></p>
+
+    <p>9. ¿Cual es la capital de Argelia?</p>
+    <input type="text" id="respuesta9" value="responda aqui">
+    <button type="button" onclick="res9 ()">Consultar</button>
+    <p id="resultado9"></p>
+
+    <p>10. ¿Cual es la capital de Senegal?</p>
+    <input type="text" id="respuesta10" value="responda aqui">
+    <button type="button" onclick="res10 ()">Consultar</button>
+    <p id="resultado10"></p>
+</body>
+</html>
